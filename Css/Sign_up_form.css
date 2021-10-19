@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    background: #E5E5E5;
+}
+.background {
+    position: absolute;
+    width: 455px;
+    height: 455px;
+    left: 473px;
+    top: 72px;
+    background: #F6FBF9;
+    border-radius: 32px;
+}
+.cube1 {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 185px;
+    top: -80px;
+    background: #C1E3D6;
+    border-radius: 40px;
+    transform: rotate(-45deg);
+}
+.cube2 {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 799px;
+    top: 400px;
+    background: #C1E3D6;
+    border-radius: 40px;
+    transform: rotate(-45deg);
+}
+h3 {
+    position: absolute;
+    width: 310px;
+    height: 47px;
+    left: 543px;
+    top: 116px;
+    text-align: center;
+    color: #212B27;
+    font-size: 33px;
+    line-height: 47px;
+    font-weight: bold;
+}
+.sentence {
+    position: absolute;
+    width: 308px;
+    height: 39px;
+    left: 546px;
+    top: 167px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #32403B;
+}
+.email {
+    position: absolute;
+    left: 512px;
+    top: 238px;
+}
+input[type=email] {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 15px 10px;
+    width: 375px;
+    height: 55px;
+}
+.pass {
+    position: absolute;
+    left: 512px;
+    top: 308px;
+}
+input[type=text] {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 375px;
+    height: 55px;
+    padding: 15px 10px;
+}
+form button {
+    background: #84C7AE;
+    border: 1px solid #84C7AE;
+    border-radius: 15px;
+    position: absolute;
+    width: 255px;
+    height: 59px;
+    left: 573px;
+    top: 384px;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 29px;
+}
+form button:hover {
+    background-color: #999999;
+}
+.sign_in {
+    position: absolute;
+    width: 213px;
+    height: 19px;
+    left: 594px;
+    top: 454px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #32403B;
+}
+.sign_in a {
+    color: #32403B;
+}
+.sign_in a:hover {
+    color: blueviolet;
+}
